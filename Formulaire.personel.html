@@ -1,0 +1,88 @@
+<form method="post" action="traitement.php"> 
+<caption> <strong>FORMULAIRE DECRITE</strong></caption> 
+<fieldset> 
+<legend>ETAT CIVIL</legend> <!-- Titre du fieldset --> 
+ <table>
+  <tr>
+  <td><label for="matricule">Matricule</label><br /> 
+<input type="text" name="matricule" id="matricule" tabindex="10" /><br /> 
+ </td>
+  
+ <td><label for="nom">Nom</label><br /> 
+<input type="text" name="nom" id="nom" tabindex="20" /><br /></td>
+ 
+ </tr>
+ <tr>
+  <td><label for="prenom">Prenom</label><br /> 
+
+<input type="text" name="prenom" id="prenom" tabindex="30" /><br /></td>
+  
+
+
+
+<td><label for="sexe">Sex</label><br/>
+
+<input type="text" name="sexe" id="sexe" tabindex="10"/></label><br/></td>
+
+ </tr>
+ <tr>
+  <td><label for="date de naissance">Date de naissance</label><br/>
+
+<input type="date" name="date de naissance" id="date de naissance" tabindex="30"/></label><br/></td>
+  
+
+<td><label for="age">Age</label><br/>
+
+<input type="number" name="age" id="age" tabindex="20"/></label><br/></td>
+</tr>
+ </table>
+</fieldset>
+<fieldset>
+<legend>MES DIPLOMES</legend> <!-- Titre du fieldset--> 
+<form method="post" action="traitement.php"> 
+  <p>
+  <table>
+  <tr>
+   <td> <input type="checkbox" name="CEP" id="CEP" /> <label for="CEP">CEP</label></td>
+ <td> <input type="checkbox" name="BEPC" id="BEPC" /> <label for="BEPC">BEPC</label></td>
+  <td> <input type="checkbox" name="BAC" id="BAC" /> <label for="BAC">BAC</label></td> 
+ </tr>
+</table>
+</p> 
+  </form>
+</fieldset>
+<fieldset>
+  <legend>EXPERTISE
+  </legend> <!-- Titre du fieldset--> 
+  <form method="post" action="traitement.php"> 
+    <p>
+    <table>
+    <tr>
+    <td><input type="radio" name="Exprtise" value="IT" id="IT" /> <label for="IT">Expert IT</label></td>
+    <td><input type="radio" name="Expertise" value="Bavardage" id="Bavardage" /> <label for="Bavardage">Expert Bavardage</label></td>
+    </tr>
+  </table> 
+</p> 
+</form>  
+</fieldset>
+<fieldset>
+<legend>LES BOUTONS
+  </legend> <!-- Titre du fieldset--> 
+  <form method="post" action="traitement.php"> 
+    <p>
+      <table>
+        <tr>
+      <td><input type="button" name="Envoyer" value="Envoyer" id="Envoyer"/> <label for="Envoyer"></label></td>
+      <td><input type="button" name="Effacer" value="Effacer" id="Effacer"/> <label for="Effacer"></label></td>
+      <td><input type="button" name="Quitter" value="Quitter" id="Quitter"/> <label for="Quitter"></label></td>
+    </tr>
+  </table>
+  </p>
+  </fieldset>
+  <legend>SEXE
+  </legend> <!-- Titre du fieldset--> 
+  <form method="post" action="traitement.php"> 
+    <p>
+    <tr>
+    <td><input type="radio" name="Féminin" value="Féminin" id="Féminin" /> <label for="Féminin">Féminin</label></td>
+    <td><input type="radio" name="Masculin" value="Masculin" id="Masculin" /> <label for="Masculin">Masculin</label></td>
